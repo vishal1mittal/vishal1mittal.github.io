@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About Us | Cambridge Computer Education</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="bg-white">
+		<!-- Header Placeholder -->
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>SINCE 2010</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					About Cambridge
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+					Empowering students with industry-relevant skills since
+					2010. We are committed to bridging the gap between education
+					and employment.
+				</p>
+			</div>
+		</section>
+
+		<!-- Our Story -->
+		<section class="py-20">
+			<div
+				class="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+				<div>
+					<img
+						src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800"
+						alt="Classroom"
+						class="rounded-3xl shadow-xl border-4 border-slate-50" />
+				</div>
+				<div>
+					<span
+						class="text-secondary font-bold tracking-wider uppercase text-sm"
+						>Our Story</span
+					>
+					<h2
+						class="text-3xl font-heading font-bold text-primary mt-2 mb-6">
+						A Decade of Excellence in Tech Education
+					</h2>
+					<p class="text-slate-600 leading-relaxed mb-6">
+						Cambridge Computer Education started with a simple
+						mission: to provide high-quality, affordable computer
+						education to the youth of Rohini, Delhi. Over the years,
+						we have evolved from a small coaching center to a
+						premier institute offering advanced courses in Data
+						Science, Web Development, and Graphic Design.
+					</p>
+					<p class="text-slate-600 leading-relaxed">
+						We take pride in our "Practical First" approach,
+						ensuring that every student who walks out of our doors
+						is ready to face the real-world challenges of the IT
+						industry.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Vision & Mission -->
+		<section class="py-20 bg-primary text-white">
+			<div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
+				<div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+					<div
+						class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-xl mb-6">
+						<i class="fas fa-eye"></i>
+					</div>
+					<h3 class="text-2xl font-heading font-bold mb-4">
+						Our Vision
+					</h3>
+					<p class="text-slate-300 leading-relaxed">
+						To be the most trusted hub for technical education in
+						North Delhi, creating a community of skilled
+						professionals who drive innovation and growth.
+					</p>
+				</div>
+				<div class="bg-white/5 p-8 rounded-3xl border border-white/10">
+					<div
+						class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-xl mb-6">
+						<i class="fas fa-bullseye"></i>
+					</div>
+					<h3 class="text-2xl font-heading font-bold mb-4">
+						Our Mission
+					</h3>
+					<p class="text-slate-300 leading-relaxed">
+						To provide accessible, high-quality technical training
+						that adapts to the changing industry landscape,
+						fostering career growth for every student regardless of
+						their background.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Director's Message -->
+		<section class="py-20 bg-slate-50">
+			<div class="container text-center max-w-4xl">
+				<div
+					class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-6 overflow-hidden">
+					<img
+						src="https://randomuser.me/api/portraits/men/15.jpg"
+						alt="Director"
+						class="w-full h-full object-cover" />
+				</div>
+				<h2 class="text-3xl font-heading font-bold text-primary mb-2">
+					Director's Message
+				</h2>
+				<p class="text-secondary font-medium mb-8">Mr. R.K. Gupta</p>
+				<div class="relative">
+					<i
+						class="fas fa-quote-left text-slate-200 text-6xl absolute -top-8 -left-4 md:-left-12"></i>
+					<p
+						class="text-xl text-slate-600 italic leading-relaxed relative z-10">
+						"At Cambridge, we don't just teach software; we teach
+						you how to think like an engineer. In today's fast-paced
+						world, adaptability is the key. Our curriculum is
+						designed to make you adaptable, skilled, and ready for
+						whatever the future holds. Welcome to the family."
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Affiliations -->
+		<section class="py-16">
+			<div class="container text-center">
+				<span
+					class="text-slate-400 font-bold uppercase tracking-widest text-sm"
+					>Affiliated With / Recognized By</span
+				>
+				<div
+					class="flex justify-center gap-12 mt-8 opacity-60 grayscale hover:grayscale-0 transition-all">
+					<!-- Placeholders for Logos -->
+					<div class="flex flex-col items-center">
+						<i
+							class="fas fa-university text-5xl mb-2 text-slate-600"></i>
+						<span class="font-bold text-slate-600"
+							>Govt. of India</span
+						>
+					</div>
+					<div class="flex flex-col items-center">
+						<i
+							class="fas fa-certificate text-5xl mb-2 text-slate-600"></i>
+						<span class="font-bold text-slate-600"
+							>ISO 9001:2015</span
+						>
+					</div>
+					<div class="flex flex-col items-center">
+						<i
+							class="fas fa-globe-asia text-5xl mb-2 text-slate-600"></i>
+						<span class="font-bold text-slate-600"
+							>NSDC Partner</span
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Placeholder -->
+		<div id="footer-placeholder"></div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

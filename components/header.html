@@ -1,0 +1,83 @@
+<header
+	class="w-full bg-white border-b border-slate-100 flex justify-between items-center px-6 py-4 shadow-sm transition-all duration-300">
+	<div class="logo">
+		<a
+			href="index.html"
+			class="text-xl md:text-2xl font-bold tracking-tight"
+			>Cambridge<span class="text-secondary"> Computer Education</span></a
+		>
+	</div>
+
+	<nav class="hidden md:block">
+		<ul
+			class="flex gap-6 items-center text-primary font-medium text-sm lg:text-base">
+			<li>
+				<a href="index.html" class="nav-link">Home</a>
+			</li>
+			<li>
+				<a href="about.html" class="nav-link">About Us</a>
+			</li>
+			<li>
+				<a href="courses.html" class="nav-link">Courses</a>
+			</li>
+			<li>
+				<a href="admissions.html" class="nav-link">Admissions</a>
+			</li>
+			<li>
+				<a href="faculty.html" class="nav-link">Faculty</a>
+			</li>
+			<li>
+				<a href="infrastructure.html" class="nav-link">Facilities</a>
+			</li>
+			<li>
+				<a href="news.html" class="nav-link">News</a>
+			</li>
+			<li>
+				<a href="alumni.html" class="nav-link">Alumni</a>
+			</li>
+			<li>
+				<a href="placements.html" class="nav-link">Success Stories</a>
+			</li>
+			<li>
+				<a
+					href="contact.html"
+					class="btn btn-secondary px-6 py-2 rounded-full text-white font-bold shadow-lg shadow-blue-200 hover:shadow-xl transition-all"
+					>Enquire Now</a
+				>
+			</li>
+		</ul>
+	</nav>
+
+	<button id="mobile-menu-btn" class="md:hidden text-primary text-2xl">
+		<i class="fas fa-bars"></i>
+	</button>
+</header>
+
+<div
+	id="mobile-menu"
+	class="fixed inset-0 bg-white z-[999] hidden flex-col items-center justify-center gap-8 text-xl text-primary">
+	<button id="close-menu-btn" class="absolute top-6 right-6 text-3xl">
+		&times;
+	</button>
+	<a href="index.html" class="mobile-link">Home</a>
+	<a href="about.html" class="mobile-link">About Us</a>
+	<a href="courses.html" class="mobile-link">Courses</a>
+	<a href="admissions.html" class="mobile-link">Admissions</a>
+	<a href="faculty.html" class="mobile-link">Faculty</a>
+	<a href="infrastructure.html" class="mobile-link">Facilities</a>
+	<a href="news.html" class="mobile-link">News</a>
+	<a href="alumni.html" class="mobile-link">Alumni</a>
+	<a href="placements.html" class="mobile-link">Success Stories</a>
+	<a href="contact.html" class="mobile-link text-secondary font-bold"
+		>Enquire Now</a
+	>
+</div>
+
+<script>
+	$("#mobile-menu-btn").click(function () {
+		$("#mobile-menu").removeClass("hidden").addClass("flex");
+	});
+	$("#close-menu-btn, .mobile-link").click(function () {
+		$("#mobile-menu").addClass("hidden").removeClass("flex");
+	});
+</script>

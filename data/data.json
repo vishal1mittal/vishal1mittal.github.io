@@ -1,0 +1,380 @@
+{
+	"institute": {
+		"name": "Cambridge Computer Education",
+		"tagline": "Empowering Future Tech Leaders",
+		"description": "Premium computer education institute in Delhi offering industry-ready courses in programming, design, and data science.",
+		"phone": "+91-9212331110",
+		"email": "info@cambridgecomputereducation.in",
+		"website": "http://cambridgecomputereducation.in/",
+		"address": "F-24/2, Sector 3, Rohini, Delhi, 110085 (Near St. Giri Public School, Opposite Pani Ki Tanki)",
+		"hours": "Mon-Sat: 8:00 AM - 9:00 PM (Sun: Closed)"
+	},
+	"courses": [
+		{
+			"id": "web-dev-fullstack",
+			"title": "Full Stack Web Development",
+			"short_desc": "Build the digital backbone of modern businesses.",
+			"description": "Every business today needs a digital presence. This course isn't just about coding; it's about building scalable solutions that drive revenue. You will learn to architect complete web applications from scratch, making you a vital asset to any tech company.",
+			"duration": "6 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Frontend Logic (React & Redux)",
+				"Backend Architecture (Node.js)",
+				"Database Management (MongoDB)",
+				"API Development & Security",
+				"Cloud Deployment (AWS/Heroku)",
+				"Real-World E-commerce Project"
+			],
+			"projects": [
+				{
+					"title": "MegaMart E-commerce",
+					"tags": ["React", "Stripe", "Redux"]
+				},
+				{
+					"title": "Social Connect App",
+					"tags": ["Node.js", "Socket.io", "MongoDB"]
+				},
+				{
+					"title": "TaskMaster Dashboard",
+					"tags": ["Charts.js", "AWS", "Auth0"]
+				}
+			]
+		},
+		{
+			"id": "data-science-python",
+			"title": "Data Science with Python",
+			"short_desc": "Turn raw data into actionable business decisions.",
+			"description": "Data is the new oil. Companies don't just need programmers; they need analysts who can predict trends and optimize costs. This course equips you with the mathematical and programming tools to turn chaos into clarity for top-tier firms.",
+			"duration": "4 Months",
+			"level": "Intermediate",
+			"image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Python for Data Analysis",
+				"Statistical Modeling & NumPy",
+				"Visualizing Trends with Seaborn",
+				"Predictive Machine Learning",
+				"Deep Learning Fundamentals",
+				"Business Intelligence Case Studies"
+			],
+			"projects": [
+				{
+					"title": "Stock Price Predictor",
+					"tags": ["LSTM", "Python", "Pandas"]
+				},
+				{
+					"title": "Customer Segmentation",
+					"tags": ["K-Means", "Seaborn", "Scikit"]
+				},
+				{
+					"title": "Sales Forecasting",
+					"tags": ["Regression", "Tableau", "SQL"]
+				}
+			]
+		},
+		{
+			"id": "graphic-design-pro",
+			"title": "Professional Graphic Design",
+			"short_desc": "Communicate complex ideas through visual storytelling.",
+			"description": "In a crowded market, design is what catches the eye. This course teaches you the psychology of visual communication. Learn to create brand identities and marketing materials that actually convert customers, not just look pretty.",
+			"duration": "3 Months",
+			"level": "Beginner",
+			"image": "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Visual Brand Identity",
+				"Adobe Photoshop Mastery",
+				"Vector Art with Illustrator",
+				"Print Media & Layouts",
+				"UI/UX Design Basics",
+				"Freelance Portfolio Setup"
+			],
+			"projects": [
+				{
+					"title": "Brand Identity Suite",
+					"tags": ["Logo", "Stationery", "Guide"]
+				},
+				{
+					"title": "Social Media Campaign",
+					"tags": ["Instagram", "Carousel", "Ads"]
+				},
+				{
+					"title": "Product Packaging",
+					"tags": ["3D Mockup", "Print", "Dielines"]
+				}
+			]
+		},
+		{
+			"id": "digital-marketing",
+			"title": "Digital Marketing Master",
+			"short_desc": "Dominate the online space and drive sales.",
+			"description": "Master SEO, Social Media, and PPC to become a growth hacker.",
+			"duration": "3 Months",
+			"level": "Beginner",
+			"image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&q=80&w=800",
+			"curriculum": ["SEO", "Google Ads", "Facebook Ads", "Analytics"],
+			"projects": [
+				{
+					"title": "SEO Audit Report",
+					"tags": ["SEMrush", "Audit", "Strategy"]
+				},
+				{
+					"title": "PPC Ad Campaign",
+					"tags": ["Google Ads", "ROI", "Budgeting"]
+				},
+				{
+					"title": "Viral Content Strat",
+					"tags": ["Reels", "Copywriting", "Trends"]
+				}
+			]
+		},
+		{
+			"id": "ethical-hacking",
+			"title": "Cyber Security & Ethical Hacking",
+			"short_desc": "Protect organizations from digital threats.",
+			"description": "Learn to identify vulnerabilities and secure networks.",
+			"duration": "5 Months",
+			"level": "Advanced",
+			"image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Network Security",
+				"Penetration Testing",
+				"Cryptography",
+				"Linux"
+			],
+			"projects": [
+				{
+					"title": "Network Pen Test",
+					"tags": ["Wireshark", "Nmap", "Report"]
+				},
+				{
+					"title": "Secure Web Audit",
+					"tags": ["OWASP", "BurpSuite", "SQLi"]
+				},
+				{
+					"title": "Malware Analysis",
+					"tags": ["Sandbox", "Reverse Eng", "Logs"]
+				}
+			]
+		},
+		{
+			"id": "office-automation",
+			"title": "Advanced Office Automation",
+			"short_desc": "Master the tools of the modern workplace.",
+			"description": "Become an Excel wizard and master corporate documentation.",
+			"duration": "2 Months",
+			"level": "Beginner",
+			"image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=800",
+			"curriculum": ["Advanced Excel", "MS Word", "PowerPoint", "Tally"],
+			"projects": [
+				{
+					"title": "Automated Payroll",
+					"tags": ["Excel", "VBA", "Macros"]
+				},
+				{
+					"title": "Financial Report",
+					"tags": ["Pivot Tables", "Charts", "Dash"]
+				},
+				{
+					"title": "Corp Presentation",
+					"tags": ["Animations", "Design", "Story"]
+				}
+			]
+		},
+		{
+			"id": "cpp-programming",
+			"title": "C++ Programming Logic",
+			"short_desc": "Build a rock-solid foundation in coding.",
+			"description": "The best way to start your coding journey. Master algorithms and data structures.",
+			"duration": "2 Months",
+			"level": "Beginner",
+			"image": "https://images.unsplash.com/photo-1515879433750-70a1c970525f?auto=format&fit=crop&q=80&w=800",
+			"curriculum": ["OOPs", "Pointers", "Data Structures", "Algorithms"],
+			"projects": [
+				{
+					"title": "Library Mgmt Sys",
+					"tags": ["File Handling", "OOPs", "CLI"]
+				},
+				{
+					"title": "Student Database",
+					"tags": ["Pointers", "Structures", "Search"]
+				},
+				{
+					"title": "Gaming Logic Engine",
+					"tags": ["Loops", "Arrays", "Logic"]
+				}
+			]
+		},
+		{
+			"id": "video-editing",
+			"title": "Video Editing & VFX",
+			"short_desc": "Create cinematic experiences.",
+			"description": "Learn Premiere Pro and After Effects for professional video production.",
+			"duration": "4 Months",
+			"level": "Intermediate",
+			"image": "https://images.unsplash.com/photo-1574717436401-063d29b3048c?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Premiere Pro",
+				"After Effects",
+				"Color Grading",
+				"Audio"
+			],
+			"projects": [
+				{
+					"title": "Music Video Edit",
+					"tags": ["Sync", "Cuts", "Transitions"]
+				},
+				{
+					"title": "Motion Graphics Ad",
+					"tags": ["After Effects", "Keyframes", "3D"]
+				},
+				{
+					"title": "Documentary Short",
+					"tags": ["Story", "Grading", "Sound"]
+				}
+			]
+		}
+	],
+	"placements": [
+		{
+			"name": "Rahul Sharma",
+			"company": "TCS",
+			"role": "System Engineer",
+			"image": "https://randomuser.me/api/portraits/men/32.jpg",
+			"testimonial": "I didn't just learn syntax here; I learned how enterprise software is actually built. The faculty focused on logic building which helped me crack the TCS interview."
+		},
+		{
+			"name": "Priya Verma",
+			"company": "Infosys",
+			"role": "Front-end Developer",
+			"image": "https://randomuser.me/api/portraits/women/44.jpg",
+			"testimonial": "The 'Real World' projects were exactly what my interviewers asked about. Cambridge bridged the gap between my college theory and actual industry needs."
+		},
+		{
+			"name": "Amit Singh",
+			"company": "Wipro",
+			"role": "Data Analyst",
+			"image": "https://randomuser.me/api/portraits/men/65.jpg",
+			"testimonial": "Coming from a non-IT background, I was scared. But the practical approach made complex data concepts easy to grasp. I'm now handling real client data."
+		}
+	],
+	"gallery": [
+		{
+			"src": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800",
+			"caption": "Advanced Computer Lab"
+		},
+		{
+			"src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800",
+			"caption": "Student Discussion Zone"
+		},
+		{
+			"src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800",
+			"caption": "Live Code Workshop"
+		},
+		{
+			"src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
+			"caption": "Collaborative Learning"
+		},
+		{
+			"src": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800",
+			"caption": "Industry Expert Session"
+		},
+		{
+			"src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800",
+			"caption": "Placement Drive Day"
+		}
+	],
+	"reviews": [
+		{
+			"user": "Ankit Kumar",
+			"rating": 5,
+			"text": "Best institute in Rohini for web development. The teachers explain concepts clearly and the lab is available for practice anytime.",
+			"source": "Google Reviews"
+		},
+		{
+			"user": "Sneha Gupta",
+			"rating": 5,
+			"text": "I completed my graphic design course here. The location opposite Pani Ki Tanki is very convenient. Highly recommended for beginners.",
+			"source": "Justdial"
+		},
+		{
+			"user": "Vikram Malhotra",
+			"rating": 4,
+			"text": "Great place for learning Python. They focus on practicals more than theory which is very helpful for jobs.",
+			"source": "Google Reviews"
+		}
+	],
+	"news": [
+		{
+			"id": "news-001",
+			"title": "Admissions Logic 2026 Batch Started",
+			"date": "Dec 28, 2025",
+			"category": "Admissions",
+			"image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800",
+			"excerpt": "Enrollment for the new Winter Batch is now open. Limited seats available for Full Stack and Data Science courses.",
+			"action": {
+				"type": "internal_link",
+				"label": "Apply Now",
+				"target": "admissions.html"
+			}
+		},
+		{
+			"id": "news-002",
+			"title": "Annual Tech Symposium Report",
+			"date": "Dec 20, 2025",
+			"category": "Events",
+			"image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800",
+			"excerpt": "Our students showcased over 50 projects at the Annual Tech Symposium. Read the full report and see the winners.",
+			"content": "<p>The Annual Tech Symposium was a massive success...</p><h3>Winners</h3><ul><li>1st: AI Drone</li><li>2nd: Smart Home</li></ul>",
+			"action": {
+				"type": "view_detail",
+				"label": "Read Full Report"
+			}
+		},
+		{
+			"id": "news-003",
+			"title": "Download Fees Structure 2026",
+			"date": "Dec 15, 2025",
+			"category": "Notice",
+			"image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800",
+			"excerpt": "Updated fee structure for all semester courses is now available for download.",
+			"action": {
+				"type": "download",
+				"label": "Download PDF",
+				"target": "assets/fees_2026.pdf",
+				"is_asset": true
+			}
+		}
+	],
+	"alumni": [
+		{
+			"name": "Arjun Mehta",
+			"position": "Senior Developer @ Google",
+			"batch": "2019",
+			"image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400",
+			"linkedin": "#",
+			"email": "arjun.m@example.com"
+		},
+		{
+			"name": "Priya Sharma",
+			"position": "Product Manager @ Microsoft",
+			"batch": "2020",
+			"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
+			"linkedin": "#"
+		},
+		{
+			"name": "Rohan Gupta",
+			"position": "Founder @ TechStart",
+			"batch": "2018",
+			"image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=400",
+			"linkedin": "#",
+			"twitter": "#"
+		},
+		{
+			"name": "Ananya Singh",
+			"position": "UX Designer @ Adobe",
+			"batch": "2021",
+			"image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400",
+			"linkedin": "#"
+		}
+	]
+}

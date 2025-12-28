@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>All Courses | Cambridge Computer Education</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/variables.css" />
+		<!-- Tailwind CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js?v=6" defer></script>
+	</head>
+	<body class="bg-white">
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>INDUSTRY READY</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					Explore All Courses
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+					From coding to design, find the perfect skill for your
+					career.
+				</p>
+			</div>
+		</section>
+
+		<!-- Courses Grid -->
+		<section class="py-16">
+			<div class="container">
+				<div
+					id="all-courses-container"
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<!-- JS Injection -->
+					<div class="col-span-full text-center py-10">
+						<i
+							class="fas fa-circle-notch fa-spin text-4xl text-secondary"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div id="footer-placeholder"></div>
+	</body>
+</html>

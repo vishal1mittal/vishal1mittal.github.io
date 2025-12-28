@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Admissions | Cambridge Computer Education</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="bg-white">
+		<!-- Header Placeholder -->
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>JOIN US</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					Admissions Open 2024
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed mb-10">
+					Join a community of learners and achievers. Your journey to
+					a successful tech career starts here.
+				</p>
+				<a
+					href="#apply"
+					class="btn bg-secondary text-white px-8 py-3 rounded-full font-bold shadow-glow hover:shadow-lg transition-all border border-transparent hover:border-white/20"
+					>Apply Now</a
+				>
+			</div>
+		</section>
+
+		<!-- Admission Process -->
+		<section class="py-24">
+			<div class="container">
+				<div class="text-center mb-16">
+					<span
+						class="text-secondary font-bold tracking-wider uppercase text-sm"
+						>How it works</span
+					>
+					<h2
+						class="text-3xl font-heading font-bold text-primary mt-2">
+						Simple 4-Step Process
+					</h2>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+					<!-- Connecting Line -->
+					<div
+						class="hidden md:block absolute top-12 left-0 w-full h-1 bg-slate-100 z-0"></div>
+
+					<!-- Step 1 -->
+					<div class="relative z-10 text-center">
+						<div
+							class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 rounded-full flex items-center justify-center text-3xl text-secondary shadow-lg mb-6">
+							1
+						</div>
+						<h3 class="font-bold text-primary text-xl mb-3">
+							Enquire
+						</h3>
+						<p class="text-slate-500 text-sm">
+							Fill the form or visit our center for a free
+							counseling session.
+						</p>
+					</div>
+
+					<!-- Step 2 -->
+					<div class="relative z-10 text-center">
+						<div
+							class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 rounded-full flex items-center justify-center text-3xl text-secondary shadow-lg mb-6">
+							2
+						</div>
+						<h3 class="font-bold text-primary text-xl mb-3">
+							Demo Class
+						</h3>
+						<p class="text-slate-500 text-sm">
+							Attend a free live demo class to experience our
+							teaching style.
+						</p>
+					</div>
+
+					<!-- Step 3 -->
+					<div class="relative z-10 text-center">
+						<div
+							class="w-24 h-24 mx-auto bg-white border-4 border-blue-50 rounded-full flex items-center justify-center text-3xl text-secondary shadow-lg mb-6">
+							3
+						</div>
+						<h3 class="font-bold text-primary text-xl mb-3">
+							Registration
+						</h3>
+						<p class="text-slate-500 text-sm">
+							Submit documents and pay the admission fee to lock
+							your seat.
+						</p>
+					</div>
+
+					<!-- Step 4 -->
+					<div class="relative z-10 text-center">
+						<div
+							class="w-24 h-24 mx-auto bg-green-500 border-4 border-green-200 text-white rounded-full flex items-center justify-center text-3xl shadow-lg mb-6">
+							<i class="fas fa-check"></i>
+						</div>
+						<h3 class="font-bold text-primary text-xl mb-3">
+							Start Learning
+						</h3>
+						<p class="text-slate-500 text-sm">
+							Get your ID card, access to labs, and start your
+							journey.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Eligibility & Documents -->
+		<section class="py-24 bg-slate-50">
+			<div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
+				<div
+					class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+					<h3
+						class="text-2xl font-heading font-bold text-primary mb-6">
+						Eligibility
+					</h3>
+					<ul class="space-y-4">
+						<li class="flex items-start gap-4">
+							<i
+								class="fas fa-check-circle text-green-500 mt-1"></i>
+							<div>
+								<strong class="block text-primary"
+									>Minimum Qualification</strong
+								>
+								<span class="text-slate-500 text-sm"
+									>10th Pass for Basic Courses / 12th Pass for
+									Diplomas</span
+								>
+							</div>
+						</li>
+						<li class="flex items-start gap-4">
+							<i
+								class="fas fa-check-circle text-green-500 mt-1"></i>
+							<div>
+								<strong class="block text-primary"
+									>Age Limit</strong
+								>
+								<span class="text-slate-500 text-sm"
+									>No upper age limit. We welcome learners of
+									all ages.</span
+								>
+							</div>
+						</li>
+						<li class="flex items-start gap-4">
+							<i
+								class="fas fa-check-circle text-green-500 mt-1"></i>
+							<div>
+								<strong class="block text-primary"
+									>Prerequisites</strong
+								>
+								<span class="text-slate-500 text-sm"
+									>Basic English understanding is required for
+									advanced courses.</span
+								>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div
+					class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+					<h3
+						class="text-2xl font-heading font-bold text-primary mb-6">
+						Documents Required
+					</h3>
+					<ul class="space-y-4">
+						<li class="flex items-center gap-4 text-slate-600">
+							<span
+								class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-secondary text-sm font-bold"
+								>1</span
+							>
+							2 Passport Size Photographs
+						</li>
+						<li class="flex items-center gap-4 text-slate-600">
+							<span
+								class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-secondary text-sm font-bold"
+								>2</span
+							>
+							Aadhar Card Copy
+						</li>
+						<li class="flex items-center gap-4 text-slate-600">
+							<span
+								class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-secondary text-sm font-bold"
+								>3</span
+							>
+							Last Qualification Marksheet Copy
+						</li>
+						<li class="flex items-center gap-4 text-slate-600">
+							<span
+								class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-secondary text-sm font-bold"
+								>4</span
+							>
+							Guardian's ID Proof (if under 18)
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Scholarship Section -->
+		<section class="py-20 bg-primary text-white text-center">
+			<div class="container">
+				<i
+					class="fas fa-graduation-cap text-5xl text-yellow-400 mb-6"></i>
+				<h2 class="text-3xl font-heading font-bold mb-4">
+					Merit Scholarship Available
+				</h2>
+				<p class="text-slate-300 max-w-2xl mx-auto mb-8">
+					We offer up to <strong>50% Scholarship</strong> for
+					meritorious students and those from economically weaker
+					sections. Take our scholarship test to qualify.
+				</p>
+				<div class="flex justify-center gap-4">
+					<a
+						href="contact.html"
+						class="btn bg-white text-primary font-bold px-8 py-3 rounded-full hover:bg-slate-100"
+						>Enquire About Scholarship</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA Form -->
+		<section id="apply" class="py-24">
+			<div class="container max-w-2xl">
+				<div class="text-center mb-12">
+					<h2 class="text-3xl font-heading font-bold text-primary">
+						Apply Online
+					</h2>
+					<p class="text-slate-500">
+						Submit your details and our counselor will call you.
+					</p>
+				</div>
+				<form
+					id="admissions-form"
+					data-form-type="admissions"
+					class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 space-y-6">
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+						<input
+							type="text"
+							name="firstName"
+							placeholder="First Name"
+							required
+							class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:border-secondary" />
+						<input
+							type="text"
+							name="lastName"
+							placeholder="Last Name"
+							required
+							class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:border-secondary" />
+					</div>
+					<input
+						type="email"
+						name="email"
+						placeholder="Email Address"
+						required
+						class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:border-secondary" />
+					<input
+						type="tel"
+						name="phone"
+						placeholder="Phone Number"
+						required
+						class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:border-secondary" />
+					<select
+						name="course"
+						required
+						class="w-full p-4 bg-slate-50 rounded-xl border border-slate-200 focus:outline-none focus:border-secondary text-slate-500">
+						<option value="" disabled selected>
+							Select Course Interested In
+						</option>
+						<option>Web Development</option>
+						<option>Data Science</option>
+						<option>Graphic Design</option>
+						<option>Basic Computer Course</option>
+					</select>
+					<button
+						type="submit"
+						class="w-full btn bg-secondary text-white font-bold py-4 rounded-xl shadow-lg hover:bg-blue-700 transition-colors">
+						Submit Application
+					</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- Footer Placeholder -->
+		<div id="footer-placeholder"></div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js"></script>
+		<!-- Include Form Handler -->
+		<script src="js/form-handler.js"></script>
+	</body>
+</html>

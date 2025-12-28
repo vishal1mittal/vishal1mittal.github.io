@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Infrastructure | Cambridge Computer Education</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="bg-white">
+		<!-- Header Placeholder -->
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>FACILITIES</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					World-Class Infrastructure
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+					Designed for maximizing productivity and creativity.
+				</p>
+			</div>
+		</section>
+
+		<!-- Lab Section -->
+		<section class="py-20">
+			<div
+				class="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+				<div class="order-2 lg:order-1">
+					<span
+						class="text-secondary font-bold tracking-wider uppercase text-sm"
+						>Practical Learning</span
+					>
+					<h2
+						class="text-3xl font-heading font-bold text-primary mt-2 mb-6">
+						High-Tech Computer Labs
+					</h2>
+					<ul class="space-y-4 text-slate-600">
+						<li class="flex items-start gap-4">
+							<i class="fas fa-desktop text-secondary mt-1"></i>
+							<span
+								><strong>1:1 Student Ratio:</strong> Every
+								student gets a dedicated system. No
+								sharing.</span
+							>
+						</li>
+						<li class="flex items-start gap-4">
+							<i class="fas fa-microchip text-secondary mt-1"></i>
+							<span
+								><strong>Latest Hardware:</strong> i5/i7
+								Processors, 16GB RAM for heavy rendering and
+								compiling.</span
+							>
+						</li>
+						<li class="flex items-start gap-4">
+							<i class="fas fa-wifi text-secondary mt-1"></i>
+							<span
+								><strong>High-Speed Internet:</strong> Fiber
+								optic connectivity for seamless cloud
+								work.</span
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="order-1 lg:order-2">
+					<img
+						src="https://images.unsplash.com/photo-1517430816045-df4b7de8db2b?auto=format&fit=crop&q=80&w=800"
+						alt="Lab"
+						class="rounded-3xl shadow-xl border-4 border-white" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Library Section -->
+		<section class="py-20 bg-slate-50">
+			<div
+				class="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+				<div>
+					<img
+						src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=800"
+						alt="Library"
+						class="rounded-3xl shadow-xl border-4 border-white" />
+				</div>
+				<div>
+					<span
+						class="text-secondary font-bold tracking-wider uppercase text-sm"
+						>Knowledge Hub</span
+					>
+					<h2
+						class="text-3xl font-heading font-bold text-primary mt-2 mb-6">
+						Digital & Physical Library
+					</h2>
+					<p class="text-slate-600 leading-relaxed mb-6">
+						Access a vast collection of tech books, journals, and
+						international case studies. Our digital library gives
+						you access to premium online courses and research
+						papers.
+					</p>
+					<a
+						href="gallery.html"
+						class="text-secondary font-bold hover:underline"
+						>View Gallery <i class="fas fa-arrow-right ml-1"></i
+					></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Placeholder -->
+		<div id="footer-placeholder"></div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

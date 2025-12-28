@@ -1,0 +1,68 @@
+:root {
+    /* Colors - Clean Light Theme */
+    --primary-color: #0f172a;
+    /* Navy Blue - Slate 900 */
+    --primary-light: #334155;
+    /* Slate 700 */
+    --secondary-color: #2563eb;
+    /* Blue 600 */
+
+    /* Backgrounds */
+    --bg-body: #ffffff;
+    --bg-light: #f8fafc;
+    /* Slate 50 */
+    --bg-dark: #0f172a;
+    /* Matching Primary */
+
+    /* Text */
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    /* Slate 500 */
+    --text-light: #f8fafc;
+    /* For dark backgrounds */
+
+    /* Accents (for Courses/Cards) */
+    --accent-green-bg: #dcfce7;
+    --accent-green-text: #166534;
+    --accent-blue-bg: #dbeafe;
+    --accent-blue-text: #1e40af;
+    --accent-yellow-bg: #fef9c3;
+    --accent-yellow-text: #854d0e;
+    --accent-pink-bg: #fce7f3;
+    --accent-pink-text: #be185d;
+
+    /* Typography */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    /* 8px */
+    --spacing-sm: 1rem;
+    /* 16px */
+    --spacing-md: 1.5rem;
+    /* 24px */
+    --spacing-lg: 2rem;
+    /* 32px */
+    --spacing-xl: 4rem;
+    /* 64px */
+    --spacing-2xl: 6rem;
+    /* 96px */
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-pill: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-soft: 0 20px 40px -10px rgba(0, 0, 0, 0.08);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}

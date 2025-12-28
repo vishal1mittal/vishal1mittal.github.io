@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Our Faculty | Cambridge Computer Education</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="bg-white">
+		<!-- Header Placeholder -->
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>EXPERT MENTORS</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					Meet Our Faculty
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+					Learn from industry experts who have active experience in
+					top tech companies.
+				</p>
+			</div>
+		</section>
+
+		<!-- Faculty Grid -->
+		<section class="py-20">
+			<div class="container">
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+					<!-- Faculty Wrapper to repeat -->
+
+					<!-- 1 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/men/32.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Amit Verma
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							Senior Web Instructor
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							M.Tech (CS) with 8+ years of experience in Full
+							Stack Development. Ex-TCS.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-linkedin"></i
+							></a>
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-twitter"></i
+							></a>
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/women/44.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Neha Gupta
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							Data Science Lead
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							Expert in Python, Machine Learning and AI. PhD
+							Scholar with 5 research papers.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-linkedin"></i
+							></a>
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-github"></i
+							></a>
+						</div>
+					</div>
+
+					<!-- 3 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/men/86.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Rahul Singh
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							Graphic Design Mentor
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							10+ Years in Creative Arts. Former Art Director at a
+							leading Digital Agency.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-instagram"></i
+							></a>
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-behance"></i
+							></a>
+						</div>
+					</div>
+
+					<!-- 4 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/women/68.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Priya Sharma
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							Basic Computing & Tally
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							Specialist in Office Automation and Accounting
+							Software. 12+ years teaching experience.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-linkedin"></i
+							></a>
+						</div>
+					</div>
+
+					<!-- 5 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/men/42.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Vikram Malhotra
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							C++ & Java Specialist
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							Core programming logic expert. Helps students build
+							strong algorithmic foundations.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-linkedin"></i
+							></a>
+						</div>
+					</div>
+
+					<!-- 6 -->
+					<div class="group text-center">
+						<div
+							class="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-lg group-hover:scale-105 transition-transform duration-500">
+							<img
+								src="https://randomuser.me/api/portraits/men/22.jpg"
+								alt="Faculty"
+								class="w-full h-full object-cover" />
+						</div>
+						<h3
+							class="text-2xl font-heading font-bold text-primary">
+							Sandeep Kumar
+						</h3>
+						<p class="text-secondary font-medium mb-3">
+							Lab Assistant
+						</p>
+						<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+							Available 24/7 for student doubts and project
+							assistance.
+						</p>
+						<div class="flex justify-center gap-3 text-slate-400">
+							<a href="#" class="hover:text-secondary"
+								><i class="fab fa-linkedin"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Placeholder -->
+		<div id="footer-placeholder"></div>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

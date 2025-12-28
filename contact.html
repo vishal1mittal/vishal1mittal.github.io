@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Us | Cambridge Computer Education</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/variables.css" />
+		<!-- Tailwind CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js" defer></script>
+	</head>
+	<body class="bg-white">
+		<div id="header-placeholder"></div>
+
+		<!-- Standard Dark Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>GET IN TOUCH</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					Contact Us
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+					Have questions about courses or placements? Reach out to us.
+				</p>
+			</div>
+		</section>
+
+		<section class="py-16">
+			<div class="container">
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+					<!-- Contact Info & Map -->
+					<div>
+						<div
+							class="bg-white rounded-3xl p-8 shadow-lg border border-slate-100 mb-8">
+							<h3 class="text-2xl font-bold text-primary mb-6">
+								Visit Our Center
+							</h3>
+							<div class="space-y-6">
+								<div class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-secondary text-xl">
+										<i class="fas fa-map-marker-alt"></i>
+									</div>
+									<div>
+										<h4 class="font-bold text-slate-800">
+											Address
+										</h4>
+										<p class="text-slate-600">
+											F-24/2, Sector 3, Rohini, Delhi,
+											110085 (Near St. Giri Public School)
+										</p>
+									</div>
+								</div>
+								<div class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-secondary text-xl">
+										<i class="fas fa-phone"></i>
+									</div>
+									<div>
+										<h4 class="font-bold text-slate-800">
+											Phone
+										</h4>
+										<p class="text-slate-600">
+											+91-9212331110
+										</p>
+									</div>
+								</div>
+								<div class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-secondary text-xl">
+										<i class="fas fa-envelope"></i>
+									</div>
+									<div>
+										<h4 class="font-bold text-slate-800">
+											Email
+										</h4>
+										<p class="text-slate-600">
+											info@cambridgecomputereducation.in
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Map -->
+						<div
+							class="rounded-3xl overflow-hidden shadow-lg h-80 border border-slate-100">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467472714283!2d77.1009936!3d28.7039186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0784a72f329f%3A0x96fff4803b73d307!2sCambridge%20Computer%20Education!5e0!3m2!1sen!2sin!4v1703600000000!5m2!1sen!2sin"
+								width="100%"
+								height="100%"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"></iframe>
+						</div>
+					</div>
+
+					<!-- Enquiry Form -->
+					<div>
+						<div
+							class="bg-primary text-white rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden">
+							<div
+								class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+
+							<h3 class="text-2xl font-bold mb-2 relative z-10">
+								Send a Message
+							</h3>
+							<p class="text-slate-300 mb-8 relative z-10">
+								Fill out the form and our counselors will get
+								back to you.
+							</p>
+
+							<form
+								id="contact-form"
+								data-form-type="contact_general"
+								class="relative z-10 space-y-4">
+								<div>
+									<label
+										class="block text-sm text-slate-300 mb-2"
+										>Your Name</label
+									>
+									<input
+										type="text"
+										name="name"
+										class="w-full p-4 bg-white/10 border border-white/20 rounded-xl focus:outline-none focus:border-secondary focus:bg-white/20 transition-all text-white placeholder-slate-400"
+										placeholder="John Doe"
+										required />
+								</div>
+								<div>
+									<label
+										class="block text-sm text-slate-300 mb-2"
+										>Phone Number</label
+									>
+									<input
+										type="tel"
+										name="phone"
+										class="w-full p-4 bg-white/10 border border-white/20 rounded-xl focus:outline-none focus:border-secondary focus:bg-white/20 transition-all text-white placeholder-slate-400"
+										placeholder="+91..."
+										required />
+								</div>
+								<div>
+									<label
+										class="block text-sm text-slate-300 mb-2"
+										>Email Address</label
+									>
+									<input
+										type="email"
+										name="email"
+										class="w-full p-4 bg-white/10 border border-white/20 rounded-xl focus:outline-none focus:border-secondary focus:bg-white/20 transition-all text-white placeholder-slate-400"
+										placeholder="your@email.com"
+										required />
+								</div>
+								<div>
+									<label
+										class="block text-sm text-slate-300 mb-2"
+										>Interested Course (Optional)</label
+									>
+									<input
+										type="text"
+										name="course"
+										class="w-full p-4 bg-white/10 border border-white/20 rounded-xl focus:outline-none focus:border-secondary focus:bg-white/20 transition-all text-white placeholder-slate-400"
+										placeholder="e.g. Web Development" />
+								</div>
+								<div>
+									<label
+										class="block text-sm text-slate-300 mb-2"
+										>Message</label
+									>
+									<textarea
+										name="message"
+										rows="3"
+										class="w-full p-4 bg-white/10 border border-white/20 rounded-xl focus:outline-none focus:border-secondary focus:bg-white/20 transition-all text-white placeholder-slate-400"
+										placeholder="How can we help?"></textarea>
+								</div>
+
+								<button
+									type="submit"
+									class="w-full bg-secondary text-white font-bold py-4 rounded-xl hover:bg-white hover:text-primary transition-colors shadow-lg shadow-blue-900/50 mt-4">
+									Submit Enquiry
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div id="footer-placeholder"></div>
+
+		<!-- Include Form Handler -->
+		<script src="js/form-handler.js"></script>
+	</body>
+</html>

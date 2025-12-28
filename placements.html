@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Placements | Cambridge Computer Education</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+			rel="stylesheet" />
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/variables.css" />
+		<!-- Tailwind CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#0f172a",
+							secondary: "#2563eb",
+						},
+						fontFamily: {
+							sans: ["Inter", "sans-serif"],
+							heading: ["Outfit", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script src="js/main.js" defer></script>
+	</head>
+	<body class="bg-slate-50">
+		<div id="header-placeholder"></div>
+
+		<!-- Hero Section -->
+		<section
+			class="bg-primary text-white pt-32 pb-20 relative overflow-hidden">
+			<!-- Background Pattern -->
+			<div
+				class="absolute inset-0 opacity-10"
+				style="
+					background-image: radial-gradient(
+						circle at 2px 2px,
+						white 1px,
+						transparent 0
+					);
+					background-size: 40px 40px;
+				"></div>
+
+			<div class="container text-center relative z-10">
+				<span
+					class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-bold tracking-wider mb-6 text-secondary"
+					>CAREER OUTCOMES</span
+				>
+				<h1
+					class="text-4xl md:text-7xl font-heading font-extrabold mb-6 leading-tight text-white">
+					Careers Built
+					<span class="text-white">Here.</span>
+				</h1>
+				<p
+					class="text-slate-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed mb-10">
+					We don't just teach courses; we launch careers. Join the
+					alumni network working at top MNCs and innovative startups.
+				</p>
+				<div
+					class="flex flex-col sm:flex-row justify-center gap-8 sm:gap-16 border-t border-white/10 pt-10 mt-10">
+					<div>
+						<div class="text-4xl font-bold text-white mb-1">
+							1000+
+						</div>
+						<div
+							class="text-sm text-slate-400 uppercase tracking-widest font-bold">
+							Placements
+						</div>
+					</div>
+					<div>
+						<div class="text-4xl font-bold text-white mb-1">
+							85%
+						</div>
+						<div
+							class="text-sm text-slate-400 uppercase tracking-widest font-bold">
+							Avg. Hike
+						</div>
+					</div>
+					<div>
+						<div class="text-4xl font-bold text-white mb-1">
+							150+
+						</div>
+						<div
+							class="text-sm text-slate-400 uppercase tracking-widest font-bold">
+							Hiring Partners
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Hiring Partners -->
+		<section class="py-12 bg-white border-b border-slate-100">
+			<div class="container">
+				<p
+					class="text-center text-slate-400 font-bold uppercase tracking-wider text-xs mb-8">
+					Trusted by Hiring Partners
+				</p>
+				<div
+					class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+					<!-- Ideally use SVGs or Images but using text/icons for now -->
+					<div
+						class="flex items-center gap-2 text-2xl font-bold text-slate-600">
+						<i class="fab fa-google"></i> Google
+					</div>
+					<div
+						class="flex items-center gap-2 text-2xl font-bold text-slate-600">
+						<i class="fab fa-microsoft"></i> Microsoft
+					</div>
+					<div
+						class="flex items-center gap-2 text-2xl font-bold text-slate-600">
+						<i class="fab fa-amazon"></i> Amazon
+					</div>
+					<div
+						class="flex items-center gap-2 text-2xl font-bold text-slate-600">
+						<i class="fab fa-apple"></i> Apple
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Placements Grid -->
+		<section class="py-20">
+			<div class="container">
+				<div
+					id="placements-container"
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<!-- Content via JS -->
+					<div class="col-span-full text-center py-10">
+						<i
+							class="fas fa-circle-notch fa-spin text-4xl text-secondary"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div id="footer-placeholder"></div>
+	</body>
+</html>
