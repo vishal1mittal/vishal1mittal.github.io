@@ -11,227 +11,339 @@
 	},
 	"courses": [
 		{
-			"id": "web-dev-fullstack",
-			"title": "Full Stack Web Development",
-			"short_desc": "Build the digital backbone of modern businesses.",
-			"description": "Every business today needs a digital presence. This course isn't just about coding; it's about building scalable solutions that drive revenue. You will learn to architect complete web applications from scratch, making you a vital asset to any tech company.",
-			"duration": "6 Months",
+			"id": "busy-accounting",
+			"title": "Busy Accounting Software",
+			"short_desc": "Complete Business Accounting.",
+			"description": "Complete Business Accounting.",
+			"duration": "2 Months",
 			"level": "Beginner to Advanced",
-			"image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
+			"image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800",
 			"curriculum": [
-				"Frontend Logic (React & Redux)",
-				"Backend Architecture (Node.js)",
-				"Database Management (MongoDB)",
-				"API Development & Security",
-				"Cloud Deployment (AWS/Heroku)",
-				"Real-World E-commerce Project"
+				"Fundamentals of Busy Software",
+				"Company Creation & Configuration",
+				"Master Entries",
+				"Voucher Entry",
+				"Inventory Management",
+				"GST in Busy",
+				"Reports & Analysis",
+				"Data & Security",
+				"Advanced Features (Optional)"
 			],
-			"projects": [
-				{
-					"title": "MegaMart E-commerce",
-					"tags": ["React", "Stripe", "Redux"]
-				},
-				{
-					"title": "Social Connect App",
-					"tags": ["Node.js", "Socket.io", "MongoDB"]
-				},
-				{
-					"title": "TaskMaster Dashboard",
-					"tags": ["Charts.js", "AWS", "Auth0"]
-				}
-			]
+			"projects": []
 		},
 		{
-			"id": "data-science-python",
-			"title": "Data Science with Python",
-			"short_desc": "Turn raw data into actionable business decisions.",
-			"description": "Data is the new oil. Companies don't just need programmers; they need analysts who can predict trends and optimize costs. This course equips you with the mathematical and programming tools to turn chaos into clarity for top-tier firms.",
-			"duration": "4 Months",
-			"level": "Intermediate",
-			"image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+			"id": "corel-draw",
+			"title": "CorelDRAW (Basic to Advanced)",
+			"short_desc": "Vector Graphics Design.",
+			"description": "Vector Graphics Design.",
+			"duration": "2 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800",
 			"curriculum": [
-				"Python for Data Analysis",
-				"Statistical Modeling & NumPy",
-				"Visualizing Trends with Seaborn",
-				"Predictive Machine Learning",
-				"Deep Learning Fundamentals",
-				"Business Intelligence Case Studies"
+				"Fundamentals of CorelDRAW",
+				"Basic Drawing Tools",
+				"Mastering Shapes and Objects",
+				"Colors and Fills",
+				"Text and Typography",
+				"Mastering Bitmaps",
+				"Advanced Features",
+				"Page Layout and Design Projects",
+				"Practical Projects"
 			],
-			"projects": [
-				{
-					"title": "Stock Price Predictor",
-					"tags": ["LSTM", "Python", "Pandas"]
-				},
-				{
-					"title": "Customer Segmentation",
-					"tags": ["K-Means", "Seaborn", "Scikit"]
-				},
-				{
-					"title": "Sales Forecasting",
-					"tags": ["Regression", "Tableau", "SQL"]
-				}
-			]
-		},
-		{
-			"id": "graphic-design-pro",
-			"title": "Professional Graphic Design",
-			"short_desc": "Communicate complex ideas through visual storytelling.",
-			"description": "In a crowded market, design is what catches the eye. This course teaches you the psychology of visual communication. Learn to create brand identities and marketing materials that actually convert customers, not just look pretty.",
-			"duration": "3 Months",
-			"level": "Beginner",
-			"image": "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?auto=format&fit=crop&q=80&w=800",
-			"curriculum": [
-				"Visual Brand Identity",
-				"Adobe Photoshop Mastery",
-				"Vector Art with Illustrator",
-				"Print Media & Layouts",
-				"UI/UX Design Basics",
-				"Freelance Portfolio Setup"
-			],
-			"projects": [
-				{
-					"title": "Brand Identity Suite",
-					"tags": ["Logo", "Stationery", "Guide"]
-				},
-				{
-					"title": "Social Media Campaign",
-					"tags": ["Instagram", "Carousel", "Ads"]
-				},
-				{
-					"title": "Product Packaging",
-					"tags": ["3D Mockup", "Print", "Dielines"]
-				}
-			]
+			"projects": []
 		},
 		{
 			"id": "digital-marketing",
-			"title": "Digital Marketing Master",
-			"short_desc": "Dominate the online space and drive sales.",
-			"description": "Master SEO, Social Media, and PPC to become a growth hacker.",
-			"duration": "3 Months",
-			"level": "Beginner",
-			"image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&q=80&w=800",
-			"curriculum": ["SEO", "Google Ads", "Facebook Ads", "Analytics"],
-			"projects": [
-				{
-					"title": "SEO Audit Report",
-					"tags": ["SEMrush", "Audit", "Strategy"]
-				},
-				{
-					"title": "PPC Ad Campaign",
-					"tags": ["Google Ads", "ROI", "Budgeting"]
-				},
-				{
-					"title": "Viral Content Strat",
-					"tags": ["Reels", "Copywriting", "Trends"]
-				}
-			]
+			"title": "Digital Marketing Master Course",
+			"short_desc": "Online Marketing Strategy.",
+			"description": "Online Marketing Strategy.",
+			"duration": "6 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"\u2013 Foundation & Website Creation",
+				"\u2013 SEO (Search Engine Optimization)",
+				"\u2013 Marketing & Social Media",
+				"\u2013 Content, Email & Affiliate Marketing",
+				"\u2013 E-commerce, Video & Advanced Marketing",
+				"\u2013 Analytics, Automation & Career Prep"
+			],
+			"projects": []
 		},
 		{
-			"id": "ethical-hacking",
-			"title": "Cyber Security & Ethical Hacking",
-			"short_desc": "Protect organizations from digital threats.",
-			"description": "Learn to identify vulnerabilities and secure networks.",
-			"duration": "5 Months",
-			"level": "Advanced",
+			"id": "english-speaking",
+			"title": "English Speaking Course",
+			"short_desc": "Communication Skills.",
+			"description": "Communication Skills.",
+			"duration": "4 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Parts Of Speech",
+				"Use Of Used (Present/Past / Future)",
+				"Positional Sentences",
+				"Possessive Sentences",
+				"Obligation",
+				"Distance",
+				"Use Of Let",
+				"Tenses",
+				"Use Of Keep",
+				"Use Of Little/A Little /Few /A Few /Only A Few/Only A Little",
+				"Causative Sentences",
+				"Suggestion",
+				"Tag Questions",
+				"Articles",
+				"Use Of Be"
+			],
+			"projects": []
+		},
+		{
+			"id": "web-designing-html",
+			"title": "HTML Web Designing",
+			"short_desc": "Web Structure Basics.",
+			"description": "Web Structure Basics.",
+			"duration": "1 Month",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of HTML",
+				"Basic HTML Elements",
+				"Text Formatting Tags",
+				"HTML Attributes",
+				"HTML Lists",
+				"HTML Links and Anchors",
+				"HTML Images",
+				"HTML Tables",
+				"HTML Forms"
+			],
+			"projects": []
+		},
+		{
+			"id": "java-programming",
+			"title": "Java Programming",
+			"short_desc": "Core Java Concepts.",
+			"description": "Core Java Concepts.",
+			"duration": "2 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of Java",
+				"Data Types and Control Statements",
+				"Classes and Objects",
+				"Inheritance and Polymorphism",
+				"Arrays, Strings, and Vectors",
+				"Exception Handling and Packages",
+				"File Handling in Java",
+				"Applet and GUI Basics (Optional/Advanced)"
+			],
+			"projects": []
+		},
+		{
+			"id": "advanced-excel",
+			"title": "Advanced Excel Course",
+			"short_desc": "Spreadsheet Mastery.",
+			"description": "Spreadsheet Mastery.",
+			"duration": "45 Days",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Column Chart (2D & 3D)",
+				"Bar Chart (2D & 3D)",
+				"Line Chart (2D & 3D)",
+				"Pie Chart (2D & 3D)",
+				"Area Chart (2D & 3D)",
+				"Combo Chart (2D & 3D)"
+			],
+			"projects": []
+		},
+		{
+			"id": "ms-word",
+			"title": "Advanced MS Word",
+			"short_desc": "Document Creation.",
+			"description": "Document Creation.",
+			"duration": "1 Month",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of MS Word",
+				"Editing Tools in MS Word",
+				"Formatting Documents in MS Word",
+				"Mastering Tables in MS Word",
+				"Advanced Formatting Features in MS Word",
+				"Mastering Large Documents in MS Word",
+				"Mail Merge in MS Word",
+				"Protecting Documents in MS Word",
+				"Protecting and Managing Documents in MS Word"
+			],
+			"projects": []
+		},
+		{
+			"id": "o-level",
+			"title": "NIELIT O Level Course",
+			"short_desc": "IT Foundation Course.",
+			"description": "IT Foundation Course.",
+			"duration": "1 Year",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of Computer & Operating System",
+				"Word Processing (MS Word / LibreOffice Writer)",
+				"Spreadsheet (MS Excel / LibreOffice Calc)",
+				"Presentation Tools (MS PowerPoint / LibreOffice Impress)",
+				"Computer Communication and Internet",
+				"Cyber Security and IT Laws",
+				"Latest Trends in IT",
+				"Fundamentals of Internet and Web",
+				"HTML (HyperText Markup Language)",
+				"Cascading Style Sheets (CSS)",
+				"JavaScript (Basics)",
+				"Web Publishing and Hosting",
+				"Web Authoring Tools",
+				"Web Design Principles",
+				"Fundamentals of Programming",
+				"Fundamentals of Python",
+				"Data Types, Operators, and Expressions",
+				"Control Flow",
+				"Functions and Recursion",
+				"Data Structures in Python"
+			],
+			"projects": []
+		},
+		{
+			"id": "adobe-photoshop",
+			"title": "Adobe Photoshop",
+			"short_desc": "Photo Editing.",
+			"description": "Photo Editing.",
+			"duration": "2 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of Photoshop",
+				"Basic Tools and Operations",
+				"Mastering Layers",
+				"Selection Techniques",
+				"Image Editing & Retouching",
+				"Mastering Text",
+				"Colors and Brushes",
+				"Filters and Effects",
+				"Advanced Features",
+				"Output and Export"
+			],
+			"projects": []
+		},
+		{
+			"id": "ms-powerpoint",
+			"title": "Microsoft PowerPoint",
+			"short_desc": "Presentation Design.",
+			"description": "Presentation Design.",
+			"duration": "15 Days",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"Fundamentals of PowerPoint",
+				"Creating Basic Presentations",
+				"Mastering Text",
+				"Mastering Multimedia",
+				"Charts, Graphs & Tables",
+				"Design and Transitions",
+				"Animations",
+				"Slide Show Presentation",
+				"Exporting and Sharing",
+				"Mini Projects / Practice"
+			],
+			"projects": []
+		},
+		{
+			"id": "class-12-ip",
+			"title": "Class 12 Informatics Practices (Python)",
+			"short_desc": "Data Handling.",
+			"description": "Data Handling.",
+			"duration": "4 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"\u2013 Data Handling using Pandas & Data Visualization \u2013 25\u202fmarks",
+				"\u2013 Database Query using SQL \u2013 25\u202fmarks",
+				"\u2013 Introduction to Computer Networks \u2013 10\u202fmarks",
+				"\u2013 Societal Impacts of IT \u2013 10\u202fmarks",
+				"Data Handling using Pandas & Data Visualization",
+				"Database Query using SQL",
+				"Fundamentals of Computer Networks",
+				"Societal Impacts"
+			],
+			"projects": []
+		},
+		{
+			"id": "python-complete",
+			"title": "Advanced Python Programming",
+			"short_desc": "Complete Python Course.",
+			"description": "Complete Python Course.",
+			"duration": "4 Months",
+			"level": "Beginner to Advanced",
 			"image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800",
 			"curriculum": [
-				"Network Security",
-				"Penetration Testing",
-				"Cryptography",
-				"Linux"
+				"CAMBRIDGE COMPUTER EDUCATION & ENGLISH LEARNING CENTREADVANCED PYTHON PROGRAMMING  (DURATION-4 MONTHS ) Total 80 HRS.CAMBRIDGE COMPUTER EDUCATION & ENGLISH LEARNING CENTREADVANCED PYTHON PROGRAMMING  (DURATION-4 MONTHS ) Total 80 HRS.Introduction to Python",
+				"CAMBRIDGE COMPUTER EDUCATION & ENGLISH LEARNING CENTRE",
+				"ADVANCED PYTHON PROGRAMMING  (DURATION-4 MONTHS ) Total 80 HRS.",
+				"CAMBRIDGE COMPUTER EDUCATION & ENGLISH LEARNING CENTRE",
+				"ADVANCED PYTHON PROGRAMMING  (DURATION-4 MONTHS ) Total 80 HRS.",
+				"Features of Python",
+				"Advantages of python",
+				"Fundamentals of python",
+				"Variables and Data Type",
+				"Keywords in python",
+				"Operators",
+				"User defined function",
+				"Indentation in python",
+				"Tokens",
+				"Comments"
 			],
-			"projects": [
-				{
-					"title": "Network Pen Test",
-					"tags": ["Wireshark", "Nmap", "Report"]
-				},
-				{
-					"title": "Secure Web Audit",
-					"tags": ["OWASP", "BurpSuite", "SQLi"]
-				},
-				{
-					"title": "Malware Analysis",
-					"tags": ["Sandbox", "Reverse Eng", "Logs"]
-				}
-			]
+			"projects": []
 		},
 		{
-			"id": "office-automation",
-			"title": "Advanced Office Automation",
-			"short_desc": "Master the tools of the modern workplace.",
-			"description": "Become an Excel wizard and master corporate documentation.",
-			"duration": "2 Months",
-			"level": "Beginner",
-			"image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=800",
-			"curriculum": ["Advanced Excel", "MS Word", "PowerPoint", "Tally"],
-			"projects": [
-				{
-					"title": "Automated Payroll",
-					"tags": ["Excel", "VBA", "Macros"]
-				},
-				{
-					"title": "Financial Report",
-					"tags": ["Pivot Tables", "Charts", "Dash"]
-				},
-				{
-					"title": "Corp Presentation",
-					"tags": ["Animations", "Design", "Story"]
-				}
-			]
-		},
-		{
-			"id": "cpp-programming",
-			"title": "C++ Programming Logic",
-			"short_desc": "Build a rock-solid foundation in coding.",
-			"description": "The best way to start your coding journey. Master algorithms and data structures.",
-			"duration": "2 Months",
-			"level": "Beginner",
-			"image": "https://images.unsplash.com/photo-1515879433750-70a1c970525f?auto=format&fit=crop&q=80&w=800",
-			"curriculum": ["OOPs", "Pointers", "Data Structures", "Algorithms"],
-			"projects": [
-				{
-					"title": "Library Mgmt Sys",
-					"tags": ["File Handling", "OOPs", "CLI"]
-				},
-				{
-					"title": "Student Database",
-					"tags": ["Pointers", "Structures", "Search"]
-				},
-				{
-					"title": "Gaming Logic Engine",
-					"tags": ["Loops", "Arrays", "Logic"]
-				}
-			]
-		},
-		{
-			"id": "video-editing",
-			"title": "Video Editing & VFX",
-			"short_desc": "Create cinematic experiences.",
-			"description": "Learn Premiere Pro and After Effects for professional video production.",
-			"duration": "4 Months",
-			"level": "Intermediate",
-			"image": "https://images.unsplash.com/photo-1574717436401-063d29b3048c?auto=format&fit=crop&q=80&w=800",
+			"id": "class-12-cs",
+			"title": "Class 12 Computer Science (Python)",
+			"short_desc": "CBSE CS Curriculum.",
+			"description": "CBSE CS Curriculum.",
+			"duration": "1 Year",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=800",
 			"curriculum": [
-				"Premiere Pro",
-				"After Effects",
-				"Color Grading",
-				"Audio"
+				"Revision of Python (Class 11)",
+				"Functions and File Handling",
+				"Using Python Libraries",
+				"Data Structures",
+				"Database Concepts",
+				"Structured Query Language (SQL)"
 			],
-			"projects": [
-				{
-					"title": "Music Video Edit",
-					"tags": ["Sync", "Cuts", "Transitions"]
-				},
-				{
-					"title": "Motion Graphics Ad",
-					"tags": ["After Effects", "Keyframes", "3D"]
-				},
-				{
-					"title": "Documentary Short",
-					"tags": ["Story", "Grading", "Sound"]
-				}
-			]
+			"projects": []
+		},
+		{
+			"id": "tally-prime",
+			"title": "Tally Prime & Financial Accounting",
+			"short_desc": "Accounting & Inventory.",
+			"description": "Accounting & Inventory.",
+			"duration": "6 Months",
+			"level": "Beginner to Advanced",
+			"image": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&q=80&w=800",
+			"curriculum": [
+				"CAMBRIDGE COMPUTER EDUCATION & ENGLISH LEARNING CENTRE",
+				"Certification No. of ISO 9001:2015 , QVA-CUHV-23-0321544",
+				"(Regd. By Govt. Of India , Regd. No. 1922)",
+				"FINANCIAL ACCOUNTING",
+				"Techniques for download TallyERP/ Tally Prime",
+				"Creating A Company",
+				"Company ConfigurationSetting up a New Company",
+				"Ledger / Groups Creation",
+				"Direct & Indirect Expenses Account Heads / Voucher Entry",
+				"Payment / Receipt Voucher",
+				"Alter Ledger / Stock/ Items / Units Etc",
+				"Contra Entry",
+				"Type of Purchases",
+				"Type of Sales",
+				"Creating Cost Centers"
+			],
+			"projects": []
 		}
 	],
 	"placements": [
